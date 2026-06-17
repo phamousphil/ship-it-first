@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="version" content="0.9.1"
-<title>Game</title>
+<meta name="version" content="0.9.2">
+<title></title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html,body{width:100%;height:100%;overflow:hidden;background:#f5f4f0;}
@@ -15,10 +15,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1
 
 /* top section - never scrolls */
 #top{width:100%;max-width:420px;flex-shrink:0;}
-#header{text-align:center;padding:6px 16px 5px;border-bottom:1px solid #e0ddd5;background:#f5f4f0;}
-#header .game-title{font-size:14px;font-weight:800;letter-spacing:0.01em;line-height:1.3;}
-#header .subtitle{font-size:10px;color:#999;font-style:italic;margin-top:1px;}
-#header .rule{font-size:11px;color:#444;font-weight:600;margin-top:3px;}
 
 #target-banner{background:#fff;border-bottom:1px solid #e0ddd5;padding:6px 12px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px;}
 #target-banner .label{font-size:11px;color:#aaa;letter-spacing:0.06em;text-transform:uppercase;text-align:center;}
@@ -81,9 +77,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#1
 <body>
 <div id="shell">
   <div id="top">
-    <div id="header">
-      <div class="game-title">Ship it First! 🚀 What could go wrong? 📈</div>
-      <div class="subtitle">The word ladder game that embodies the ethos of failed tech startups across the globe</div>
+<div class="subtitle">The word ladder game that embodies the ethos of failed tech startups across the globe</div>
       <div class="rule">Change one letter at a time to reach the target from the seed word SHIP</div>
     </div>
     <div id="target-banner">
